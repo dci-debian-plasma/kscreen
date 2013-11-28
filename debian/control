@@ -1,6 +1,6 @@
 Source: kscreen
 Section: kde
-Priority: extra
+Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Felix Geyer <fgeyer@debian.org>, Rohan Garg <rohan@kde.org>
 Build-Depends: debhelper (>= 9), cmake, kdelibs5-dev, libkscreen-dev (>= 1.0.2), libqjson-dev (>= 0.8), libxrandr-dev
@@ -22,6 +22,7 @@ Description: KDE monitor hotplug and screen handling
 
 Package: kscreen-dbg
 Section: debug
+Priority: extra
 Architecture: any
 Recommends: kdelibs5-dbg
 Depends: ${misc:Depends}, kscreen (= ${binary:Version})
