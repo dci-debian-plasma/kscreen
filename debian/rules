@@ -7,8 +7,8 @@
 override_dh_auto_test:
 	# requires an X server
 
-override_dh_install:
-	dh_install --fail-missing
+override_dh_auto_install:
+	dh_auto_install --destdir=debian/kscreen/
 
 override_dh_strip:
 	dh_strip --dbg-package=kscreen-dbg
