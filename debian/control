@@ -1,0 +1,34 @@
+Source: kscreen
+Section: kde
+Priority: extra
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Felix Geyer <fgeyer@debian.org>, Rohan Garg <rohan@kde.org>
+Build-Depends: debhelper (>= 8.0.0), cmake, kdelibs5-dev, libkscreen-dev (>= 1.0.2), libqjson-dev (>= 0.8), libxrandr-dev
+Standards-Version: 3.9.4
+Homepage: https://projects.kde.org/projects/playground/base/kscreen
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kscreen
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kscreen
+
+Package: kscreen
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: KDE monitor hotplug and screen handling
+ The KDE multiple monitor support is trying be as smart as possible
+ adapting the behavior of it to each use case making the configuration
+ of monitors as simple as plugging them to your computer.
+ .
+ This package contains the modules and plugins for monitor hotplut and
+ automatic screen handling.
+
+Package: kscreen-dbg
+Section: debug
+Architecture: any
+Recommends: kdelibs5-dbg
+Depends: ${misc:Depends}, kscreen (= ${binary:Version})
+Description: KDE monitor hotplug and screen handling, debug info
+ The KDE multiple monitor support is trying be as smart as possible
+ adapting the behavior of it to each use case making the configuration
+ of monitors as simple as plugging them to your computer.
+ .
+ This package contains the debugging symbols.
+

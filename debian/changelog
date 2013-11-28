@@ -1,0 +1,5 @@
+kscreen (1.0.2.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #730356)
+
+ -- Rohan Garg <rohan@kde.org>  Sat, 23 Nov 2013 06:31:01 +1100
