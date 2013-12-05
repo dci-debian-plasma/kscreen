@@ -11,8 +11,7 @@ Build-Depends: debhelper (>= 9),
                kdelibs5-dev,
                libkscreen-dev (>= 1.0.2),
                libqjson-dev (>= 0.8),
-               libxrandr-dev,
-               xvfb
+               libxrandr-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/extragear/base/kscreen
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kscreen
