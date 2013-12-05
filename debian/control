@@ -2,10 +2,18 @@ Source: kscreen
 Section: kde
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Felix Geyer <fgeyer@debian.org>, Rohan Garg <rohan@kde.org>
-Build-Depends: debhelper (>= 9), pkg-kde-tools, cmake, kdelibs5-dev, libkscreen-dev (>= 1.0.2), libqjson-dev (>= 0.8), libxrandr-dev
-Standards-Version: 3.9.4
-Homepage: https://projects.kde.org/projects/playground/base/kscreen
+Uploaders: Felix Geyer <fgeyer@debian.org>,
+           Maximiliano Curia <maxy@debian.org>,
+           Rohan Garg <rohan@kde.org>
+Build-Depends: debhelper (>= 9),
+               pkg-kde-tools,
+               cmake,
+               kdelibs5-dev,
+               libkscreen-dev (>= 1.0.2),
+               libqjson-dev (>= 0.8),
+               libxrandr-dev
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/extragear/base/kscreen
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kscreen
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kscreen
 
@@ -32,4 +40,3 @@ Description: KDE monitor hotplug and screen handling, debug info
  of monitors as simple as plugging them to your computer.
  .
  This package contains the debugging symbols.
-
