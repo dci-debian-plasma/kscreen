@@ -1,7 +1,5 @@
 TODO:
 
-	* Fix lintian complains
-
 	* kscreen-console.1 manpage:
 	  + replace standard options with a reference to kdeoptions manpage
 
