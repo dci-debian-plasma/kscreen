@@ -14,8 +14,8 @@ Build-Depends: debhelper (>= 9),
                libxrandr-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/extragear/base/kscreen
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kscreen
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kscreen
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kscreen.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kscreen.git
 
 Package: kscreen
 Architecture: any
