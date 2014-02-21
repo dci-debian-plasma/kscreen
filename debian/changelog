@@ -1,4 +1,4 @@
-kscreen (1.0.2.1-1) UNRELEASED; urgency=low
+kscreen (1.0.2.1-1) unstable; urgency=low
 
   [ Rohan Garg ]
   * Initial release (Closes: #730356)
@@ -7,4 +7,4 @@ kscreen (1.0.2.1-1) UNRELEASED; urgency=low
   * Add autopkgtests.
   * New patch: add_switchDisplayTwoScreensNoCommonMode_json
 
- -- Rohan Garg <rohan@kde.org>  Sat, 23 Nov 2013 06:31:01 +1100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 21 Feb 2014 01:46:40 +0100
