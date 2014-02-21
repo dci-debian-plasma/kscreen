@@ -5,5 +5,6 @@ kscreen (1.0.2.1-1) UNRELEASED; urgency=low
 
   [ Maximiliano Curia ]
   * Add autopkgtests.
+  * New patch: add_switchDisplayTwoScreensNoCommonMode_json
 
  -- Rohan Garg <rohan@kde.org>  Sat, 23 Nov 2013 06:31:01 +1100
