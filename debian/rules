@@ -1,16 +1,8 @@
 #!/usr/bin/make -f
-# -*- makefile -*-
 
-export DEB_LDFLAGS_MAINT_APPEND=-Wl,--as-needed
-
-%:
-	dh $@ --with kde --parallel
-
-override_dh_auto_test:
-	# requires an X server
-
-override_dh_auto_install:
-	dh_auto_install --destdir=debian/kscreen/
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_strip:
-	dh_strip --dbg-package=kscreen-dbg
+	$(overridden_command) --dbg-package=kscreen-dbg
+
+.PHONY: override_dh_auto_test
