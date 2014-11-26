@@ -1,3 +1,9 @@
+kscreen (2.0.0~git20141126-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream snapshot
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 26 Nov 2014 17:18:13 +0100
+
 kscreen (2.0.0~git20140827-0ubuntu1~ubuntu14.10~ppa1) utopic; urgency=medium
 
   [ Scarlett Clark ]
