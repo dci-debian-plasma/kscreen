@@ -1,1 +1,4 @@
-{"branch":"Plasma/5.2"}
+{
+    "type" : "git",
+    "branch" : "frameworks"
+}
