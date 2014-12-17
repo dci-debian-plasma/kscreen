@@ -1,8 +1,10 @@
 Source: kscreen
 Section: kde
-Priority: extra
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-XSBC-Original-Maintainer: Achim Bohnet <allee@kubuntu.org>
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Felix Geyer <fgeyer@debian.org>,
+           Maximiliano Curia <maxy@debian.org>,
+           Rohan Garg <rohan@kde.org>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 1.0.0),
@@ -18,9 +20,9 @@ Build-Depends: cmake,
                qtdeclarative5-dev
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
-Homepage: https://projects.kde.org/projects/playground/base/kscreen
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kscreen
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kscreen
+Homepage: https://projects.kde.org/projects/extragear/base/kscreen
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kscreen.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kscreen.git
 
 Package: kscreen
 Architecture: any
