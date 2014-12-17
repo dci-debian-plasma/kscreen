@@ -1,7 +1,7 @@
 Source: kscreen
 Section: kde
 Priority: optional
-Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Felix Geyer <fgeyer@debian.org>,
            Maximiliano Curia <maxy@debian.org>,
            Rohan Garg <rohan@kde.org>
