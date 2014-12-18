@@ -38,6 +38,7 @@ Description: KDE monitor hotplug and screen handling
 
 Package: kscreen-dbg
 Section: debug
+Priority: extra
 Architecture: any
 Depends: kscreen (= ${binary:Version}), ${misc:Depends}
 Description: KDE monitor hotplug and screen handling - debug info
