@@ -1,10 +1,79 @@
-kscreen (1.0.2.1-1) unstable; urgency=low
+kscreen (2.0.0~git20141126-0ubuntu1) UNRELEASED; urgency=medium
 
-  [ Rohan Garg ]
-  * Initial release (Closes: #730356)
+  * New upstream snapshot
 
-  [ Maximiliano Curia ]
-  * Add autopkgtests.
-  * New patch: add_switchDisplayTwoScreensNoCommonMode_json
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 26 Nov 2014 17:18:13 +0100
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 21 Feb 2014 01:46:40 +0100
+kscreen (2.0.0~git20140827-0ubuntu1~ubuntu14.10~ppa1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * Update packaging for frameworks branch
+  * Git snapshot of the frameworks branch
+
+  [ Jonathan Riddell ]
+  * Remove kscreen-console.1 manpage which is out of date
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 20 Aug 2014 08:35:15 -0700
+
+kscreen (1.0.2.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+  * Update debian/watch
+  * Bump b-dep on libkscreen-dev to (>= 1.0.2)
+
+ -- Jackson Doak <noskcaj@ubuntu.com>  Sat, 23 Nov 2013 06:31:01 +1100
+
+kscreen (1.0.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream release. (LP: #1208413)
+  * Make sure it compiles with libkscreen >= 1.0.1.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Sun, 04 Aug 2013 18:33:33 +0800
+
+kscreen (1.0-0ubuntu1) saucy; urgency=low
+
+  * New upstream release. (LP: #1194491)
+
+ -- Howard Chan <smartboyhw@gmail.com>  Tue, 25 Jun 2013 22:18:18 +0800
+
+kscreen (0.0.92-0ubuntu2) saucy; urgency=low
+
+  * No change rebuild against updated libkscreen
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 08 May 2013 16:11:10 +0100
+
+kscreen (0.0.92-0ubuntu1) saucy; urgency=low
+
+  * New upstream release (LP: #1177333)
+    - Drop upstream_l10n.patch, included upstream
+    - Bump libkscreen-dev Build Depend to 0.0.92
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 07 May 2013 00:17:04 +0100
+
+kscreen (0.0.81-0ubuntu2) raring; urgency=low
+
+  * Add upstream_l10n.patch adding translations (mostly entire po files)
+    that were not part of the original release as the used release script
+    was rubbish.
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Wed, 17 Apr 2013 14:01:59 +0200
+
+kscreen (0.0.81-0ubuntu1) raring; urgency=low
+
+  * New upstream release candidate 
+  * Set maintainer to Kubuntu Developers
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 29 Mar 2013 21:38:07 +0100
+
+kscreen (0.0.71+git20130311-0ubuntu1) raring; urgency=low
+
+  * New upstream snapshot. 
+  * Make build-depends libkscreen (>= 0.0.71+git20130311 so it can build
+
+ -- Howard Chan <smartboyhw@gmail.com>  Mon, 11 Mar 2013 21:24:40 +0800
+
+kscreen (0.0.71-0ubuntu1) raring; urgency=low
+
+  * Initial release
+
+ -- Achim Bohnet <allee@kubuntu.org>  Mon, 21 Jan 2013 00:22:05 +0100
