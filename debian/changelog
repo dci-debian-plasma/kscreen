@@ -1,8 +1,9 @@
-kscreen (2.0.0~git20141126-0ubuntu1) UNRELEASED; urgency=medium
+kscreen (4:5.1.95-0ubuntu1) vivid; urgency=medium
 
   * New upstream snapshot
+  * New upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 26 Nov 2014 17:18:13 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 15 Jan 2015 01:30:43 +0100
 
 kscreen (2.0.0~git20140827-0ubuntu1~ubuntu14.10~ppa1) utopic; urgency=medium
 
