@@ -6,7 +6,6 @@ kscreen (4:5.1.95-0ubuntu2) vivid; urgency=medium
 
 kscreen (4:5.1.95-0ubuntu1) vivid; urgency=medium
 
-  * New upstream snapshot
   * New upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 15 Jan 2015 01:30:43 +0100
