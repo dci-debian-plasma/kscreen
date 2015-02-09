@@ -1,6 +1,7 @@
 kscreen (4:5.2.0-1~) UNRELEASED; urgency=medium
 
   * Prepare initial Debian release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Feb 2015 16:11:35 +0100
 
