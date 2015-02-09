@@ -6,5 +6,7 @@ HOME=debian/tests.home openbox &
 sleep 5
 #tests are broken : Tests don't pass but Alex promised he'll look at it.
 #Uncomment next line when fixed.
-#HOME=debian/tests.home dh_auto_test
+HOME=debian/tests.home dh_auto_test
+ret=$?
 rm -rf debian/home/tests.home
+exit $ret
