@@ -1,1 +1,10 @@
-usr/
+usr/bin/kscreen-console
+usr/lib/*/qt5/plugins/kcm_kscreen.so
+usr/lib/*/qt5/plugins/kded_kscreen.so
+/usr/share/icons/*/*/actions/kdocumentinfo.*
+/usr/share/kcm_kscreen/
+/usr/share/kservices5/kcm_kscreen.desktop
+/usr/share/kservices5/kded/kscreen.desktop
+/usr/share/locale/*/*/kcm_displayconfiguration.mo
+/usr/share/locale/*/*/kscreen.mo
+/usr/share/locale/*/*/plasma_applet_org.kde.plasma.kscreen.mo
