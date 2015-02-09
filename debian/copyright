@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kscreen
-Source: http://anongit.kde.org/kscreen
+Source: git://anongit.kde.org/kscreen
 
 Files: *
 Copyright: 2012 by Alejandro Fiestas Olivares <afiestas@kde.org>
