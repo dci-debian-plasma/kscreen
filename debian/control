@@ -15,11 +15,11 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5screen-dev (>= 5.1.95),
                libkf5xmlgui-dev (>= 5.1.0),
                libqjson-dev,
-               libqt5x11extras5-dev,
+               libqt5x11extras5-dev (>= 5.4),
                libxrandr-dev,
                pkg-kde-tools (>= 0.15.16),
-               qtbase5-dev,
-               qtdeclarative5-dev
+               qtbase5-dev (>= 5.4),
+               qtdeclarative5-dev (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/kscreen
