@@ -2,9 +2,12 @@
 export LANG=C.UTF-8
 export LC_ALL=C.UTF-8
 [ -e debian/tests.home ] || mkdir debian/tests.home
-HOME=debian/tests.home openbox &
+export HOME="$(pwd)/debian/tests.home"
+openbox &
 sleep 5
 #tests are broken : Tests don't pass but Alex promised he'll look at it.
 #Uncomment next line when fixed.
-#HOME=debian/tests.home dh_auto_test
-rm -rf debian/home/tests.home
+dh_auto_test
+ret=$?
+rm -rf debian/tests.home
+exit $ret
