@@ -1,3 +1,10 @@
+kscreen (4:5.3.2-4) unstable; urgency=high
+
+  * Team upload.
+  * Fix spelling of qml-module-qtgraphicaleffects
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 26 Jul 2015 18:44:47 -0400
+
 kscreen (4:5.3.2-3) unstable; urgency=high
 
   * Team upload.

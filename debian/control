@@ -29,7 +29,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kscreen.git
 Package: kscreen
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-framework,
- qml-module-graphicaleffects, kde-cli-tools
+ qml-module-qtgraphicaleffects, kde-cli-tools
 Description: KDE monitor hotplug and screen handling
  KScreen provides multiple monitor support.  This support tries to be
  as smart as possible adapting the behavior of it to each use case
