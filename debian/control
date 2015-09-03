@@ -21,15 +21,17 @@ Build-Depends: cmake (>= 2.8.12),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4)
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/kscreen
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/kscreen.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kscreen.git
 
 Package: kscreen
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-framework,
- qml-module-qtgraphicaleffects, kde-cli-tools
+Depends: kde-cli-tools,
+         plasma-framework,
+         qml-module-qtgraphicaleffects,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: KDE monitor hotplug and screen handling
  KScreen provides multiple monitor support.  This support tries to be
  as smart as possible adapting the behavior of it to each use case
