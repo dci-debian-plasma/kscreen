@@ -8,11 +8,17 @@ Uploaders: Felix Geyer <fgeyer@debian.org>,
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.6.0~),
+               libkf5config-dev,
                libkf5configwidgets-dev (>= 5.1.0),
                libkf5dbusaddons-dev (>= 5.1.0),
                libkf5globalaccel-dev (>= 5.1.0),
                libkf5i18n-dev,
+<<<<<<< HEAD
                libkf5screen-dev (>= 4:5.4.3~),
+=======
+               libkf5screen-dev (>= 4:5.2.91~),
+               libkf5widgetsaddons-dev,
+>>>>>>> master
                libkf5xmlgui-dev (>= 5.1.0),
                libqjson-dev,
                libqt5x11extras5-dev (>= 5.4),
@@ -21,14 +27,18 @@ Build-Depends: cmake (>= 2.8.12),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4)
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/kscreen
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/kscreen.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kscreen.git
 
 Package: kscreen
 Architecture: any
+<<<<<<< HEAD
 Depends: plasma-framework,
+=======
+Depends: kde-cli-tools,
+         plasma-framework,
+>>>>>>> master
          qml-module-qtgraphicaleffects,
          ${misc:Depends},
          ${shlibs:Depends}
