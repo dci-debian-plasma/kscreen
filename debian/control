@@ -13,12 +13,8 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5dbusaddons-dev (>= 5.1.0),
                libkf5globalaccel-dev (>= 5.1.0),
                libkf5i18n-dev,
-<<<<<<< HEAD
-               libkf5screen-dev (>= 4:5.4.3~),
-=======
                libkf5screen-dev (>= 4:5.2.91~),
                libkf5widgetsaddons-dev,
->>>>>>> master
                libkf5xmlgui-dev (>= 5.1.0),
                libqjson-dev,
                libqt5x11extras5-dev (>= 5.4),
@@ -33,12 +29,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kscreen.git
 
 Package: kscreen
 Architecture: any
-<<<<<<< HEAD
-Depends: plasma-framework,
-=======
 Depends: kde-cli-tools,
          plasma-framework,
->>>>>>> master
          qml-module-qtgraphicaleffects,
          ${misc:Depends},
          ${shlibs:Depends}

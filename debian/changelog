@@ -1,6 +1,7 @@
 kscreen (4:5.4.3-0ubuntu2) UNRELEASED; urgency=medium
 
   * Debian merge: No remaining changes. 
+  * Fix control file merge. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 04 Dec 2015 21:52:33 -0800
 
