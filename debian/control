@@ -30,6 +30,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kscreen.git
 Package: kscreen
 Architecture: any
 Depends: kde-cli-tools,
+         libkf5screen-bin,
          plasma-framework,
          qml-module-qtgraphicaleffects,
          ${misc:Depends},
