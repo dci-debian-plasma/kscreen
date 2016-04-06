@@ -1,7 +1,16 @@
-Index: kscreen-5.3.2/tests/kded/CMakeLists.txt
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 6 Apr 2016 23:00:12 +0200
+Subject: kubuntu_disable-test
+
 ===================================================================
---- kscreen-5.3.2.orig/tests/kded/CMakeLists.txt
-+++ kscreen-5.3.2/tests/kded/CMakeLists.txt
+---
+ tests/kded/CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/tests/kded/CMakeLists.txt b/tests/kded/CMakeLists.txt
+index 8bcbeb3..184dc1d 100644
+--- a/tests/kded/CMakeLists.txt
++++ b/tests/kded/CMakeLists.txt
 @@ -25,6 +25,6 @@ macro(ADD_KDED_TEST testname)
      ecm_mark_as_test(${testname})
  endmacro()
