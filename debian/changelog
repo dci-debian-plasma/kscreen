@@ -1,3 +1,19 @@
+kscreen (4:5.6.2-1~1.gbpa08104) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @a081044ee569fbb1adf028027c6df6e495910e5b **
+
+  [ Rohan Garg ]
+  * Make sure kscreen depends on libkf5screen-bin.
+
+  [ Maximiliano Curia ]
+  * Bump build dependency of the libkscreen version, drop libkf5screen-bin
+    dependency, it's part of libkscreen's symbols file.
+
+  [ Automatic packaging ]
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 06 Apr 2016 23:00:14 +0200
+
 kscreen (4:5.5.5-1~) UNRELEASED; urgency=medium
 
   [ Rohan Garg ]
