@@ -1,6 +1,6 @@
-kscreen (4:5.6.2-1~2.gbp99dc43) UNRELEASED; urgency=medium
+kscreen (4:5.6.2-1~3.gbp068907) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @99dc4368690d6bae66c2c11d8b5b22736b6484c8 **
+  ** SNAPSHOT build @068907bc5799478cb8110b758ec625ea651d3b19 **
 
   [ Rohan Garg ]
   * Make sure kscreen depends on libkf5screen-bin.
@@ -14,12 +14,13 @@ kscreen (4:5.6.2-1~2.gbp99dc43) UNRELEASED; urgency=medium
   * Automatic update with ddeb_migration3.py
   * Add upstream metadata (DEP-12)
   * Add a .gitattributes file to use dpkg-mergechangelogs
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
   [ Automatic packaging ]
   * Refresh patches
   * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 18 Apr 2016 19:00:14 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 18 Apr 2016 20:10:31 +0200
 
 kscreen (4:5.5.4-1) experimental; urgency=medium
 
