@@ -1,6 +1,6 @@
-kscreen (4:5.6.3-1~1.gbp2109fb) UNRELEASED; urgency=medium
+kscreen (4:5.6.4-1~1.gbp21f06e) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @2109fb4471082385880896d2eceb51346c826703 **
+  ** SNAPSHOT build @21f06e9bd43d2f98217534667c5cecd4eacfff7b **
 
   [ Rohan Garg ]
   * Make sure kscreen depends on libkf5screen-bin.
@@ -20,8 +20,9 @@ kscreen (4:5.6.3-1~1.gbp2109fb) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Refresh patches
   * Bump Standards-Version to 3.9.8
+  * Refresh patches
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 19 Apr 2016 15:00:15 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 10 May 2016 21:00:15 +0200
 
 kscreen (4:5.5.4-1) experimental; urgency=medium
 
