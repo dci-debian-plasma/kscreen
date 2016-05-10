@@ -8,7 +8,7 @@ Subject: kubuntu_disable-test
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/tests/kded/CMakeLists.txt b/tests/kded/CMakeLists.txt
-index 8bcbeb3..184dc1d 100644
+index 6fb3619..26dc2de 100644
 --- a/tests/kded/CMakeLists.txt
 +++ b/tests/kded/CMakeLists.txt
 @@ -25,6 +25,6 @@ macro(ADD_KDED_TEST testname)
