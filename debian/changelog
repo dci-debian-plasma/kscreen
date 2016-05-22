@@ -1,6 +1,4 @@
-kscreen (4:5.6.4-1~1.gbp21f06e) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @21f06e9bd43d2f98217534667c5cecd4eacfff7b **
+kscreen (4:5.6.4-1) experimental; urgency=medium
 
   [ Rohan Garg ]
   * Make sure kscreen depends on libkf5screen-bin.
@@ -15,14 +13,13 @@ kscreen (4:5.6.4-1~1.gbp21f06e) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
 
   [ Automatic packaging ]
   * Refresh patches
   * Bump Standards-Version to 3.9.8
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 10 May 2016 21:00:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 May 2016 10:31:19 +0200
 
 kscreen (4:5.5.4-1) experimental; urgency=medium
 
