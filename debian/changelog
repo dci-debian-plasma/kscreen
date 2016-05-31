@@ -1,3 +1,9 @@
+kscreen (4:5.6.4-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 20:00:42 +0200
+
 kscreen (4:5.6.4-1) experimental; urgency=medium
 
   [ Rohan Garg ]
