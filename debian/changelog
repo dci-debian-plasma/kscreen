@@ -1,3 +1,11 @@
+kscreen (4:5.6.5-1~1.gbp269815) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @2698150fd897af65d313d754880319f98b4fff05 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 15:00:13 +0200
+
 kscreen (4:5.6.4-2) unstable; urgency=medium
 
   * Release to unstable.
