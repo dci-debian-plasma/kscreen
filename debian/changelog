@@ -1,12 +1,9 @@
-kscreen (4:5.7.0-1~2.gbpc0314d) UNRELEASED; urgency=medium
+kscreen (4:5.7.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @c0314d842f6c85a26b8e95107efdb5b1f4938a8a **
-
-  * UNRELEASED
   * Update install files
   * Revert "Update install files"
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 08 Jul 2016 16:00:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Jul 2016 19:52:48 +0200
 
 kscreen (4:5.6.5-1) unstable; urgency=medium
 
