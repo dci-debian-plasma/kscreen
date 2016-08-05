@@ -1,11 +1,12 @@
-kscreen (4:5.7.2-1~1.gbp7f8f3e) UNRELEASED; urgency=medium
+kscreen (4:5.7.3-1~1.gbp8e0ba4) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @7f8f3e25a2bad578d87497fed5ed89e19878b841 **
+  ** SNAPSHOT build @8e0ba4754e31b8e4adc32dc649cecacc1f3ba3c1 **
 
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 19 Jul 2016 21:00:17 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 05 Aug 2016 12:50:31 +0200
 
 kscreen (4:5.7.0-1) unstable; urgency=medium
 
