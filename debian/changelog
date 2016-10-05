@@ -1,11 +1,12 @@
-kscreen (4:5.8.0-1~1.gbp4940bc) UNRELEASED; urgency=medium
+kscreen (4:5.8.0-1~2.gbp2d0ec2) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @4940bca9d50a939f662db629a0b869ade71c60ce **
+  ** SNAPSHOT build @2d0ec273fa4981feedb725855a002cf1f32236a8 **
 
   * UNRELEASED
   * UNRELEASED
+  * Replace dbus-launch with dbus-run-session in tests
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:42:07 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 05 Oct 2016 20:00:29 +0200
 
 kscreen (4:5.7.4-1) unstable; urgency=medium
 
