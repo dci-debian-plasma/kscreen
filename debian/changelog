@@ -1,3 +1,10 @@
+kscreen (4:5.8.0-2) unstable; urgency=medium
+
+  * Bump libkf5screen-dev build dependency version (Closes: 840067)
+    Thanks to Chris Lamb for the report
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Oct 2016 10:53:47 +0200
+
 kscreen (4:5.8.0-1) unstable; urgency=medium
 
   * New upstream release (5.8.0)
