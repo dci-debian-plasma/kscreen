@@ -1,3 +1,11 @@
+kscreen (4:5.8.1-1~1.gbpbf6c41) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @bf6c412f4d502e5e6aaca8cf954f892d12626a67 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 21:00:40 +0200
+
 kscreen (4:5.8.0-2) unstable; urgency=medium
 
   * Bump libkf5screen-dev build dependency version (Closes: 840067)
