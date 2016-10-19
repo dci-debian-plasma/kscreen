@@ -1,10 +1,8 @@
-kscreen (4:5.8.2-1~1.gbpf0926f) UNRELEASED; urgency=medium
+kscreen (4:5.8.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @f0926f415fafb646fe95099fc53c496e1956c3a2 **
+  * New upstream release (5.8.2)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 18 Oct 2016 21:00:30 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 15:26:20 +0200
 
 kscreen (4:5.8.1-1) unstable; urgency=medium
 
