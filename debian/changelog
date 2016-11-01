@@ -1,3 +1,11 @@
+kscreen (4:5.8.3-1~1.gbp469032) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4690322c15123cdfe43817c1585ec19dfc995b43 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 01 Nov 2016 17:00:22 +0100
+
 kscreen (4:5.8.2-1) unstable; urgency=medium
 
   * New upstream release (5.8.2)
