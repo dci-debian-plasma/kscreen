@@ -33,6 +33,7 @@ Depends: kde-cli-tools,
          qml-module-qtgraphicaleffects,
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: upower
 Description: KDE monitor hotplug and screen handling
  KScreen provides multiple monitor support.  This support tries to be
  as smart as possible adapting the behavior of it to each use case
