@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Felix Geyer <fgeyer@debian.org>,
            Maximiliano Curia <maxy@debian.org>,
-           Rohan Garg <rohan@kde.org>
+           Rohan Garg <rohan@kde.org>,
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.6.0~),
@@ -20,7 +20,7 @@ Build-Depends: cmake (>= 2.8.12),
                libxrandr-dev,
                pkg-kde-tools (>= 0.15.16),
                qtbase5-dev (>= 5.4),
-               qtdeclarative5-dev (>= 5.4)
+               qtdeclarative5-dev (>= 5.4),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/kde/workspace/kscreen
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/kscreen.git
@@ -32,7 +32,7 @@ Depends: kde-cli-tools,
          plasma-framework,
          qml-module-qtgraphicaleffects,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Recommends: upower
 Description: KDE monitor hotplug and screen handling
  KScreen provides multiple monitor support.  This support tries to be
