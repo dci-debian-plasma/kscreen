@@ -45,7 +45,7 @@ Description: KDE monitor hotplug and screen handling
 
 Package: kscreen-dbg
 Section: debug
-Priority: extra
+Priority: optional
 Architecture: any
 Depends: kscreen (= ${binary:Version}), ${misc:Depends}
 Description: KDE monitor hotplug and screen handling - debug info
@@ -55,3 +55,4 @@ Description: KDE monitor hotplug and screen handling - debug info
  your computer.
  .
  This package contains the debugging symbols.
+
